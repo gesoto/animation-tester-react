@@ -1,0 +1,52 @@
+.title {
+  margin: 10px;
+  font-family: Lato;
+}
+
+.animation-container {
+  height: 600px;
+  width: 600px;
+  background-color: rgb(241, 241, 241);
+  border-radius: 50%;
+}
+
+button {
+  background-color: rgb(221, 221, 221);
+  border: none;
+  color: rgb(126, 126, 126);
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: Lato;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 40px;
+  scale: 1;
+  transition: 0.25s;
+}
+button:hover {
+  color: white;
+  background-color: rgb(255, 0, 98);
+  scale: 1.1;
+  transition: 0.25s;
+}
+button:active {
+  scale: 1;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 900px) {
+  .container {
+    flex-direction: column;
+  }
+  .animation-container {
+  height: auto;
+  width: auto;
+  }
+}
