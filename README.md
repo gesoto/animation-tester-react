@@ -8,6 +8,6 @@ I created this tool to help everyone quickly preview and prototype their own seq
 
 The animations were created in After Effects and exported as JSON files using Lottie-web. The application was created in React to preview and play all these animations with ease.
 
-<a href="https://stackblitz.com/edit/react-fo8gzf" target="_blank">Live source code:</a>
+Live source code is also available here: <a href="https://stackblitz.com/edit/react-fo8gzf" target="_blank">https://stackblitz.com/edit/react-fo8gzf</a>
 
-Prototype is available at: https://vibrant-leakey-7754d9.netlify.app/
+ <a href="https://vibrant-leakey-7754d9.netlify.app/" target="_blank">Prototype here</a>
